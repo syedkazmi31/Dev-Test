@@ -1,0 +1,9 @@
+--Brief Summary of My Approach and Decisions--
+
+I built the Locations Directory page from scratch using only HTML, CSS, JavaScript, and PHP. My focus was to create a simple, clean, and fully responsive layout that works smoothly across all devices.
+
+The page includes a sticky header with a logo and navigation, a hero section with a title, a sidebar with a city search filter, and a grid of location cards. Each card displays basic information and expands smoothly to show more details when the “View Details” button is clicked. On mobile, a sticky contact button appears when a card is expanded.
+
+The data is stored in data.php as an array, and the grid is generated dynamically through PHP. The search function works by sending a request to search.php, which filters and returns matching results in JSON. JavaScript handles updating the page without reloading.
+
+The CSS layout uses Grid and Flexbox, with breakpoints for different screen sizes and smooth transitions for a polished feel. I kept the code organized, readable, and commented to make it easy to follow.
